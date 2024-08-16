@@ -12,7 +12,6 @@ const initialState: BlogState = {
   error: null,
 };
 
-// Async thunk untuk mengambil data blog dari API
 export const fetchBlogs = createAsyncThunk('blogs/fetchBlogs', async () => {
   const response = await fetch('https://pmb.alkautsar.ponpes.id/api/cms/blog');
   return response.json();

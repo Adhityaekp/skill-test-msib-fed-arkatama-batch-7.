@@ -17,7 +17,7 @@ const initialState: PortfolioState = {
 };
 
 export const fetchPortfolios = createAsyncThunk("portfolio/fetchPortfolios", async () => {
-  const response = await fetch("/api/portfolios"); // Adjust the API endpoint accordingly
+  const response = await fetch("https://pmb.alkautsar.ponpes.id/api/cms/portofolio");
   return (await response.json()) as Portfolio[];
 });
 
