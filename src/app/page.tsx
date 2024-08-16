@@ -132,12 +132,25 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="w-full bg-white text-[#333333] text-center p-12">
-        <h1 className="text-4xl font-bold">Pondok Pesantren Technopreneur</h1>
-        <p className="mt-4 text-lg">Mencetak generasi unggul yang mahir di bidang teknologi dan tetap teguh dalam pendidikan agama.</p>
-        <div className="mt-8">
-          <button className="px-6 py-3 bg-white text-blue-600 font-semibold rounded-full mr-4">Jago IT Rajin Ngaji bersama Al Kautsar</button>
-          <button className="px-6 py-3 bg-blue-800 text-white font-semibold rounded-full">Download Profile Kami</button>
+      <section className="w-full max-w-7xl bg-cover mx-auto items-center text-[#333333] item-center p-12">
+        <div className="mx-auto px-4 py-8 text-start rounded-[10px]" style={{ backgroundImage: "url(/bg.png)" }}>
+          <p className="mt-4 text-lg text-[#002EC1]">
+            Mau Jadi Generasi Mahir Teknologi, Kuat <br></br>Iman?
+          </p>
+          <h1 className="text-6xl font-bold">Pondok Pesantren</h1>
+          <h1 className="text-6xl font-bold text-[#002EC1]">{"{Technopreneur}"}</h1>
+          <p className="mt-4 text-lg">
+            Mencetak generasi unggul yang mahir di bidang teknologi digital <br></br> dan teguh dalam pemahaman Islam Ahlu Sunnah Wal Jama’ah
+          </p>
+          <div className="mt-8 p-1 border-2 border-[#002EC1] shadow-lg shadow-[#002EC1]/20 rounded-full inline-flex">
+            <button className="px-6 py-2 text-sm bg-white text-[#333333] rounded-full mr-2">Jago IT Rajin Ngaji bersama Al Kautsar</button>
+            <button className="px-6 py-2 bg-[#002EC1] text-white rounded-full flex items-center space-x-2">
+              <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed" className="mr-2">
+                <path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z" />
+              </svg>
+              Download Profile Kami
+            </button>
+          </div>
         </div>
       </section>
 
