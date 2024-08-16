@@ -132,17 +132,18 @@ export default function Home() {
         </div>
       </header>
 
-      <section className="w-full max-w-7xl bg-cover mx-auto items-center text-[#333333] item-center p-12">
-        <div className="mx-auto px-4 py-8 text-start rounded-[10px]" style={{ backgroundImage: "url(/bg.png)" }}>
+      <section className="w-full bg-cover bg-center text-[#333333] p-12">
+        <div className="max-w-7xl mx-auto flex flex-col justify-center text-start p-8 rounded-[10px]" style={{ backgroundImage: "url(/bg.png)", backgroundPosition: "right center", backgroundSize: "cover" }}>
           <p className="mt-4 text-lg text-[#002EC1]">
-            Mau Jadi Generasi Mahir Teknologi, Kuat <br></br>Iman?
+            Mau Jadi Generasi Mahir Teknologi, Kuat <br />
+            Iman?
           </p>
           <h1 className="text-6xl font-bold">Pondok Pesantren</h1>
           <h1 className="text-6xl font-bold text-[#002EC1]">{"{Technopreneur}"}</h1>
           <p className="mt-4 text-lg">
-            Mencetak generasi unggul yang mahir di bidang teknologi digital <br></br> dan teguh dalam pemahaman Islam Ahlu Sunnah Wal Jama’ah
+            Mencetak generasi unggul yang mahir di bidang teknologi digital <br /> dan teguh dalam pemahaman Islam Ahlu Sunnah Wal Jama’ah
           </p>
-          <div className="mt-8 p-1 border-2 border-[#002EC1] shadow-lg shadow-[#002EC1]/20 rounded-full inline-flex">
+          <div className="mt-8 p-1 border-2 border-[#002EC1] shadow-lg shadow-[#002EC1]/20 rounded-full inline-flex max-w-max">
             <button className="px-6 py-2 text-sm bg-white text-[#333333] rounded-full mr-2">Jago IT Rajin Ngaji bersama Al Kautsar</button>
             <button className="px-6 py-2 bg-[#002EC1] text-white rounded-full flex items-center space-x-2">
               <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed" className="mr-2">
@@ -150,6 +151,33 @@ export default function Home() {
               </svg>
               Download Profile Kami
             </button>
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full bg-[#002EC1] py-12">
+        <div className="max-w-7xl mx-auto flex items-start px-4">
+          <div className="w-full md:w-1/2 mr-8">
+            <h2 className="text-3xl font-bold mb-4">Perpaduan Pendidikan Agama dan Teknologi secara Seimbang</h2>
+            <p>Bersama Al Kautsar, komunitas yang suportif dan inspiratif untuk tumbuh dan berkembang</p>
+          </div>
+          <div className="w-full md:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-4">
+            <div className="flex items-center p-6 bg-white rounded-lg shadow-md">
+              <img src="/Web.svg" alt="Pengembangan Aplikasi Web dan Mobile" className="mr-4 w-10 h-10" />
+              <h3 className="text-[#333333] font-semibold">Pengembangan Aplikasi Web dan Mobile</h3>
+            </div>
+            <div className="flex items-center p-6 bg-white rounded-lg shadow-md">
+              <img src="/Ciber.svg" alt="Keamanan Siber" className="mr-4 w-10 h-10" />
+              <h3 className="text-[#333333] font-semibold">Keamanan Siber</h3>
+            </div>
+            <div className="flex items-center p-6 bg-white rounded-lg shadow-md">
+              <img src="/Data.svg" alt="Data Science dan Analitika" className="mr-4 w-10 h-10" />
+              <h3 className="text-[#333333] font-semibold">Data Science dan Analitika</h3>
+            </div>
+            <div className="flex items-center p-6 bg-white rounded-lg shadow-md">
+              <img src="/Techno.svg" alt="Technopreneur dan Digital Marketing" className="mr-4 w-10 h-10" />
+              <h3 className="text-[#333333] font-semibold">Technopreneur dan Digital Marketing</h3>
+            </div>
           </div>
         </div>
       </section>
@@ -166,26 +194,6 @@ export default function Home() {
         <div className="p-6 bg-gray-100 rounded-lg shadow-md">
           <h3 className="text-xl font-semibold">Kajian Agama</h3>
           <p className="mt-2 text-gray-700">Memperdalam ilmu agama untuk kehidupan yang lebih baik.</p>
-        </div>
-      </section>
-
-      <section className="w-full bg-gray-50 py-12">
-        <div className="max-w-7xl mx-auto text-center px-4">
-          <h2 className="text-3xl font-bold mb-8">Quick Launch</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="p-6 bg-white rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold">SIAM</h3>
-              <p className="mt-2 text-gray-700">Sistem Informasi Akademik Mahasantri</p>
-            </div>
-            <div className="p-6 bg-white rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold">SIRIN</h3>
-              <p className="mt-2 text-gray-700">Sistem Informasi Reservasi Inovasi</p>
-            </div>
-            <div className="p-6 bg-white rounded-lg shadow-md">
-              <h3 className="text-xl font-semibold">Cloud Storage</h3>
-              <p className="mt-2 text-gray-700">Penyimpanan Awan Terintegrasi</p>
-            </div>
-          </div>
         </div>
       </section>
 
